@@ -1,7 +1,7 @@
 /**
- * _isalpha - checks if it is a letter
+ * _islower - checks if it is a letter
  * @c: character to be checked
- * Return: 1 if c is a letter (lowercase or uppercase), 0 otherwise
+ * Return: 1 if c is a letter (lowercase), 0 otherwise
  */
 
 int _islower(int c)
