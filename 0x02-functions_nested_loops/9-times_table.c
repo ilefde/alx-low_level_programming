@@ -1,21 +1,34 @@
 #include "main.h"
 
 /**
- * times_table - Entry Point
- * Description: Prints 9 times table
- * Return: void
+ * times_table - prints the 9 mult table
+ *
+ * Retun: void
+ *
  */
-
 void times_table(void)
 {
-	int i, j, ans, tens, unit;
+	int a,  b, p;
 
-	for (i = 0; i <= 9; i++)
+	for (a = 0; a <= 9; a++)
 	{
-		for (j = 0; j <= 9; j++)
+		_putchar('0');
+
+		for (b = 1; b <= 9; b++)
 		{
-			ans = i*j;
-			_putchar(ans);
+			_putchar(',');
+			_putchar(' ');
+
+
+			p = a * b;
+
+			if (p <= 9)
+				_putchar(' ');
+			else
+				_putchar((p / 10) + '0');
+
+			_putchar((p% 10) + '0');
 		}
+		_putchar('\n');
 	}
 }
