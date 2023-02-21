@@ -17,26 +17,7 @@ void times_table(void)
 			ans = i * j;
 			tens = ans / 10;
 			unit = ans % 10;
-			if (j == 0)
-			{
-				_putchar('0');
-
-			}
-			else if (ans < 0)
-			{
-				_putchar(',');
-				_putchar(' ');
-				_putchar(' ');
-				_putchar(ans + ' ');
-			}
-			else
-			{
-				_putchar(',');
-				_putchar(' ');
-				_putchar(tens / 10 + '0');
-				_putchar(unit % 10 + '0');
-			}
+			_putchar(ans)
 		}
-		_putchar('\n');
 	}
 }
