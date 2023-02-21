@@ -17,7 +17,7 @@ void times_table(void)
 			ans = i * j;
 			tens = ans / 10;
 			unit = ans % 10;
-			_putchar(ans)
+			_putchar(ans);
 		}
 	}
 }
