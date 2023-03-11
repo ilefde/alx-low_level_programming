@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - it all starts here
+ * main -prints prog name
  * @argc: the number of arguments
  * @argv: arrayy of pointers to arguments
  *
