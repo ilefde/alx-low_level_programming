@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * simple_print_buffer - prints buffer in hexa
+ * *create_array- prints buffer in hexa
  * @c: initialization character
  * @size: the size of the memory to print
  *
