@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * *malloc_checked-returns a pointer to a new string
+ * *malloc_checked-returns a pointer allocated memory
  * @b: duplicated string
  *
  * Return: Nothing or pointer
@@ -11,5 +11,15 @@
 
 void *malloc_checked(unsigned int b)
 {
+  unsigned int *p;
+  
+  *p = malloc(b);
+  if *p == NULL
+  { return (98);
+  }
+  return (*p);
+  
+    
+    
   
 }
