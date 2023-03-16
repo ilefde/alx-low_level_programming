@@ -14,20 +14,20 @@ char *_strdup(char *str)
     char *newstring;
     int x;
     int l;
-    x=0;
+    
+    x = 0;
     while (str[x] != '\0')
     {
-      x++;
+        x++;
     }
-    x++;
     newstring = malloc(sizeof(*str) * x);
     if (newstring == NULL)
-      return (NULL);
-    l=0;
+        return (NULL);
+    l = 0;
     newstring=malloc(sizeof(str));
     while (str[l] != '\0')
     {
-        newstring[l]=str[l];
+        newstring[l] = str[l];
         l++;
     }
     return(newstring);
