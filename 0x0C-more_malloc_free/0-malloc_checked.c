@@ -4,7 +4,7 @@
 
 /**
  * *malloc_checked-returns a pointer allocated memory
- * @b: duplicated string
+ * @b:memory size
  *
  * Return: Nothing or pointer
  */
