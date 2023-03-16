@@ -11,7 +11,7 @@
 
 char *_strdup(char *str)
 {
-    char *string;
+    char *newstring;
     int x;
     int l;
     x=0;
@@ -20,14 +20,14 @@ char *_strdup(char *str)
       x++;
     }
     x++;
-    string = malloc(sizeof(*str) * x);
+    newstring = malloc(sizeof(*str) * x);
     if (string == NULL)
       return (NULL);
-    string=malloc(sizeof(str))
-    while (str[y] != '\0')
-    { 
-      string[y] = str[y];
-      y++;
-    }               
-      
+    l=0;
+    newstring=malloc(sizeof(str));
+    while (str[l] != '\0')
+    {
+        newstring[l]=str[l];
+        l++
+    }
 }
