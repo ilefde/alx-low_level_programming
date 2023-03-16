@@ -10,9 +10,9 @@
 
 char *_strdup(char *str)
 {
-	char *strNew;
+	char *new;
 	int x;
-	int y;
+	int l;
 
 	if (str == NULL)
 		return (NULL);
@@ -22,14 +22,14 @@ char *_strdup(char *str)
 		x++;
 	}
 	x++;
-	strNew = malloc(sizeof(*str) * x);
-	if (strNew == NULL)
+	new = malloc(sizeof(*str) * x);
+	if (new == NULL)
 		return (NULL);
-	y = 0;
-	while (str[y] != '\0')
+	l = 0;
+	while (str[l] != '\0')
 	{
-		strNew[y] = str[y];
+		new[l] = str[l];
 		y++;
 	}
-	return (strNew);
+	return (new);
 }
