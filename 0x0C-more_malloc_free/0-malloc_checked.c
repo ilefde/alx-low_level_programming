@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * *malloc_checked-returns a pointer allocated memory
+ * malloc_checked-returns a pointer allocated memory
  * @b:memory size
  *
  * Return: Nothing or pointer
