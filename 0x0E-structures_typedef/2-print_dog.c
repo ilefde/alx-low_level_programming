@@ -3,9 +3,10 @@
 #include "dog.h"
 
 /**
- *void init_dog - initialize dog
- *@d: dog object
+ * print_dog - prints dog info
+ * @d: dog object
  *
+ * Return : void
  */
 
 void print_dog(struct dog *d)
