@@ -5,7 +5,7 @@
  * main- orints filename
  *
  */
-int main(void)
+void main(void)
 {
   printf("%s\n",__FILE__);
 }
