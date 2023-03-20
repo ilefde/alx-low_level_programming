@@ -3,10 +3,10 @@
 
 /**
  * init_dog - initialize dog
- * @d -dog object
- * @name - of dof
- * @age - of dog
- * @owner - name of owner
+ * @d: dog object
+ * @name: of dof
+ * @age: of dog
+ * @owner: name of owner
  *
  * Return: void
  */
