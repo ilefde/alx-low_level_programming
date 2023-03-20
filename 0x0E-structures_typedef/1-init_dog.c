@@ -1,12 +1,13 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include dog.h
 
 /**
- *void init_dog - initialize dog
- *@struct dog *d -dog object
- *@name - of dof
- *@age - of dog
- *@owner - name of owner
+ * void init_dog - initialize dog
+ * @d -dog object
+ * @name - of dof
+ * @age - of dog
+ * @owner - name of owner
  *
  */
 
