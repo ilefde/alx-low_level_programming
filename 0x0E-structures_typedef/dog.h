@@ -1,9 +1,9 @@
 /**
- * dog - new structure
+ *struct dog - new structure
  *
- * @name - of dof
- * @age - of dog
- * @owner - name of owner
+ *@name - of dof
+ *@age - of dog
+ *@owner - name of owner
  */
 
 typedef struct dog
