@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main- orints filename
+ * main - orints filename
  *
  * Return : 0
  */
