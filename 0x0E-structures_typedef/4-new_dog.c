@@ -13,8 +13,7 @@
 
 dog_t *new_dog(char *name, float age, char *owner)
 {
-  struct dog_t d
-    
+  init_dog(struct dog *d, char *name, float age, char *owner)
 	if (d == NULL)
 		;
 	else
