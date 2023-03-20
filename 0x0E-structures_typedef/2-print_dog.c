@@ -1,10 +1,9 @@
-#include <stdio.h>
 #include <stdlib.h>
-#include dog.h
+#include "dog.h"
 
 /**
  *void init_dog - initialize dog
- *@*d -dog object
+ *@d: dog object
  *
  */
 
