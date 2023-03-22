@@ -7,12 +7,14 @@
  * @array: name to be printed
  * @cmp: pointer to fnctn
  * @size: size
+ *
  * Return: index for cmpnot , -1 for no matches
  */
 
 int int_index(int *array, int size, int (*cmp)(int))
 {
   int i = 0;
+  
   if (array && size)
   {
     for (i = 0; i < size ;i++)
