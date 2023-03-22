@@ -1,10 +1,13 @@
 #include <stdlib.h>
-
+#include <stdio.h>
 /**
- * main- orints filename
+ * main - prints the name of the file
  *
+ * Return: 0
  */
+
 int main(void)
 {
-  printf(__FILE__,"%c\n");
+	printf("%s\n", __FILE__);
+	return (0);
 }

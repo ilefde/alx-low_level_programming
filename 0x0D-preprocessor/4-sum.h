@@ -1,3 +1,6 @@
-#ifndef SUM
-#define SUM(x, y) ((x)+(y))
+#ifndef SUM_VAR
+#define SUM_VAR
+
+#define SUM(x, y) ((x) + (y))
+
 #endif
