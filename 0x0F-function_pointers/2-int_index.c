@@ -12,7 +12,6 @@
 int int_index(int *array, int size, int (*cmp)(int))
 {
   size_t i = 0;
-  logic
   
   for (i = 0; i < size ;i++)
   {
