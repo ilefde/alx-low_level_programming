@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include "function_pointers.h"
+
 /**
  * array_iterator - prints the name of the file
  * @array: name to be printed
@@ -12,8 +13,9 @@ void array_iterator(int *array, size_t size, void (*action)(int))
 {
   int i = 0;
   
-  for (i =0; i < size ;i++)
+  for (i = 0; i < size ;i++)
   {
     action(array[i]);
   }
+  
 }
