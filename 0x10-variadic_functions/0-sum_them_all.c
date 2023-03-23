@@ -21,7 +21,7 @@
   
    va_start(numbers, n);
    for (i = 0; i < 0; i++))
-   {sum = sum + va_arg(nums, int); }
+   {sum = sum + va_arg(numbers, int); }
    va_end(numbers);
    return (sum);
  }
