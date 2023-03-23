@@ -15,7 +15,6 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 
    va_start(ap, arg1); 
    for (i = arg1; i >= 0; i = va_arg(ap, int))
-    _putchar("%d ", i, separator);
+    _putchar(i, separator);
   va_end(ap);
-  putchar('\n');
 }
