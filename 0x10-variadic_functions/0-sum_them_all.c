@@ -14,11 +14,11 @@
    va_list numbers;
 
   if (n == 0)
-       {return (0); }
-  else
-       {  
-         va_start(numbers, n);
-         for (i = 0; i < n; i++)
+  {
+  return (0);
+  }
+  va_start(numbers, n);
+  for (i = 0; i < n; i++)
          {
           sum += va_arg(numbers, int);
          }
