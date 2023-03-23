@@ -18,13 +18,10 @@
  {
    va_list numbers;
    int i;
-   int j;
   
    va_start(numbers, n);
-   j = va_arg(numbers, int);
-   j = va_arg(numbers, int);
-   for (i = j; i >= 0; i = va_arg(numbers, int))
-   {sum = sum + i; }
+   for (i = 0; i < 0; i++))
+   {sum = sum + va_arg(nums, int); }
    va_end(numbers);
    return (sum);
  }
