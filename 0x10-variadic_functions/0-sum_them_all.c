@@ -19,8 +19,7 @@
    int i;
 
    va_start(numbers, n);
-   j = va_arg(numbers, int);
-   for (i = j; i >= 0; i = va_arg(numbers, int))
+   for (i = n; i >= 0; i = va_arg(numbers, int))
    {sum = sum + i; }
    va_end(numbers);
    return (sum);
