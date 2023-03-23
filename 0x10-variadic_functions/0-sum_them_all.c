@@ -8,11 +8,9 @@
  *
  * Return: sum of arguments.
  */
- 
-int sum_them_all(const unsigned int n, ...)
+ int sum_them_all(const unsigned int n, ...)
 {
  int sum = 0;
- 
  if (n == 0)
   return (0);
  else
@@ -21,7 +19,7 @@ int sum_them_all(const unsigned int n, ...)
    int i;
    va_start(numbers, n); 
    for (i = n; i >= 0; i = va_arg(numbers, int))
-     sum = sum + i;
+   {sum = sum + i;}
    va_end(numbers);
    return (sum);
  }
