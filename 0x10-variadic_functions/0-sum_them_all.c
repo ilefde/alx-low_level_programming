@@ -12,7 +12,7 @@
 {
  int sum = 0;
  if (n == 0)
-  return (0);
+ {return (0); }
  else
  {
    va_list numbers;
