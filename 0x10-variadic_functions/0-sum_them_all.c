@@ -20,7 +20,7 @@
    int i;
   
    va_start(numbers, n);
-   for (i = 0; i < 0; i++))
+   for (i = 0; i < n; i++))
    {sum = sum + va_arg(numbers, int); }
    va_end(numbers);
    return (sum);
