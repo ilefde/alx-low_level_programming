@@ -19,9 +19,9 @@
    va_list numbers;
    int i;
    int j;
+  
    j = va_arg(numbers, int);
    j = va_arg(numbers, int);
-
    va_start(numbers, n);
    for (i = j; i >= 0; i = va_arg(numbers, int))
    {sum = sum + i; }
