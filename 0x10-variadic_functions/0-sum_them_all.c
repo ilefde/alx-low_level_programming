@@ -17,9 +17,10 @@
  {
    va_list numbers;
    int i;
+
    va_start(numbers, n); 
    for (i = n; i >= 0; i = va_arg(numbers, int))
-   {sum = sum + i;}
+   {sum = sum + i; }
    va_end(numbers);
    return (sum);
  }
