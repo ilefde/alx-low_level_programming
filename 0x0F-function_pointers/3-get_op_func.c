@@ -10,6 +10,8 @@
  * Return: a pointer to the function corresponding to the
  * operator given in parameter
  */
+#include "3-calc.h"
+#include <stdlib.h>
 
 int (*get_op_func(char *s))(int, int)
 {
@@ -19,19 +21,13 @@ int (*get_op_func(char *s))(int, int)
 		{"*", op_mul},
 		{"/", op_div},
 		{"%", op_mod},
-		{NULL, NULL}
+		{NULL, NULL},
 	};
 
 	int i = 0;
 
-	while (ops[i].op)
-	{
-		if (strcmp(s, ops[i].op == 0)
-		{
-		return (ops[i].f);
-		}
+	while (ops[i].op != NULL && *(ops[i].op) != *s)
 		i++;
-	}
-	printf("Error\n");
-	exit(99);
+
+	return (ops[i].f);
 }
