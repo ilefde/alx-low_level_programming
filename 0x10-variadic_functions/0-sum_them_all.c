@@ -8,6 +8,7 @@
  *
  * Return: sum of arguments.
  */
+
  int sum_them_all(const unsigned int n, ...)
 {
   unsigned int i, sum = 0;
