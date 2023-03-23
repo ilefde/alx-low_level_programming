@@ -7,6 +7,7 @@
  * print_numbers - is a function that returns the sum of all its parameters
  * @n: is the integer parameter
  * @separator: character that separates numbers
+ *
  * Return: nothing
  */
 
