@@ -14,9 +14,9 @@ size_t print_listint(const listint_t *h)
 	while (h)
 	{
 		if (!h->integer)
-			printf("[0] (nil)\n");
+			_putchar("[0] (nil)\n");
 		else
-			printf("%d\n", h->integer);
+			_putchar("%d\n", h->integer);
 		h = h->next;
 		n++;
 	}
