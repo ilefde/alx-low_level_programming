@@ -1,10 +1,10 @@
-#include lists.h
+#include "lists.h"
 
 /**
- * print_listint - prints all the elements of a linked list
- * @h: pointer to the list_t list to print
+ * print_listint - a function that prints all the elements of a listint_t list
+ * @h: the datatype pointer of the struct
  *
- * Return: the number of nodes printed
+ * Return: the number of nodes
  */
 
 size_t print_listint(const listint_t *h)
@@ -17,5 +17,6 @@ size_t print_listint(const listint_t *h)
 		printf("%d\n", current_node->n);
 		nodes++;
 	}
+
 	return (nodes);
 }
